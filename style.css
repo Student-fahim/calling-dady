@@ -2,8 +2,12 @@
     /* border: 1px solid red; */
     padding: 0;
     margin: 0;
+    border: 1px solid red;
+    
 }
 body{
+    
+    border: 4px dotted green;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -182,9 +186,7 @@ a{
     font-weight: 400;
     color: Black;
 }
-.button{
-    text-align: center;
-}
+ 
 .banner-button{
     background-color: black;
     padding: 10px 30px;
@@ -606,16 +608,16 @@ li{
     }
     .contentbox-box{
         column-gap: -6;
-        width: 50px;
+        max-width: 50px;
         margin-left: -10px;
         margin-left: 10px;
         grid-template-columns: repeat(2,1fr)
     }
     .box4{
-        width:260px;
+       max-width: 260px;
     }
     .image{
-        width: 250px;
+       max-width: 250px;
     }
     .contentbox-4{
         flex-direction: column;
@@ -664,6 +666,10 @@ li{
     }
     .left-card{
         display: none;
+    }
+    .banner-containar{
+        flex-direction: column;
+        text-align: center;
     }
 
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

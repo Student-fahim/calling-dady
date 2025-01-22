@@ -450,7 +450,7 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
   
 .story-card .date-tag {
     position: absolute;
-    bottom: 7px;
+    bottom: 75px;
     left: 50px;
     background: #1abc9c;
     color: white;
@@ -545,6 +545,18 @@ li{
         justify-content: center;
         text-align: center;
     }
+    .story-card .date-tag {
+        position: absolute;
+        
+        background: #1abc9c;
+        color: white;
+        padding: 5px 10px;
+        font-size: 12px;
+        border-radius: 15px;
+    }
+    .bannar-imag{
+        max-width: 300px;
+    }
     .contenbox-1{
         flex-direction: column-reverse;
         align-items: center;
@@ -555,15 +567,17 @@ li{
         top: 340px;
         bottom: 50px;
     }
+    
     .icon-nav{
        flex-direction: column;
        display: inline-block;
+       position: relative;
+       right: 100px;
     }
 
     hr{
         display: block;
         background-color: rgb(249, 142, 2);
-        width: 50px;
     }
     .section-3{
         background-position: center;
